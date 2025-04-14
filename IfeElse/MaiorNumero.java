@@ -1,15 +1,15 @@
+import java.util.Locale;
 import java.util.Scanner;  
-import java.util.Locale; 
 public class MaiorNumero {
     public static void main(String[]args){
 
         // Faça um Programa que peça dois números e imprima o maior deles.
-
+        Locale.setDefault(Locale.US);
         Scanner entrada = new Scanner(System.in);
         System.out.println("Digite o primeiro número: ");
-        int primeiroNumero = entrada.nextInt();
+        float primeiroNumero = entrada.nextFloat();
         System.out.println("Digite o segundo número: ");
-        int segundoNumero = entrada.nextInt();
+        float segundoNumero = entrada.nextFloat();
 
         if (primeiroNumero > segundoNumero ){
             System.out.println("O prmeiro númeor é maior que o segundo");
