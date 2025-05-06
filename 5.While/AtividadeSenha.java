@@ -1,4 +1,4 @@
-package While;
+
 import java.util.Scanner;
 public class AtividadeSenha {
     public static void main(String[] args){

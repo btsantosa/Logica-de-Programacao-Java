@@ -1,4 +1,4 @@
-package While;
+
 import java.util.Scanner;
 public class AtividadePostoGasolina {
     public static void main(String[] args){

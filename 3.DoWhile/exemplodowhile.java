@@ -1,4 +1,3 @@
-package DoWhile;
 import java.util.Scanner;
 
 public class exemplodowhile {
